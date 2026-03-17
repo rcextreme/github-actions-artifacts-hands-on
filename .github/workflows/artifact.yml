@@ -22,7 +22,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
 
-    Steps:
+    steps:
     - name: Get archived file
       uses: actions/download-artifact@v4
       with:
